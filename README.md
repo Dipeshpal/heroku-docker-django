@@ -151,6 +151,8 @@ Remove Image-
 
 
 	   heroku create blurai-docker
+	   
+	   heroku container:login
 
 	   heroku addons:create heroku-postgresql:hobby-dev -a blurai-docker
 
